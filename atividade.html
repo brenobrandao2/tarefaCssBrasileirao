@@ -12,7 +12,7 @@ body {
 	background-color: #F3F3F3;
 	height: 45px;
 	width: 100%;
-	line-height: 45px;
+	line-height: 30px;
 }
 li {
 	display: inline;
@@ -47,8 +47,27 @@ li {
 	text-decoration: none;
 }
 #divFirstNav {
-	width: 75%;
 	margin: 0 auto;
+}
+#divSecondNav {
+	margin: 0 auto;
+}
+#primeiroUl {
+	display: inline-block;	
+	width: 50%;
+	margin-left: 15%;
+}
+#segundoUl {
+	display: inline-block;
+}
+.linkSegundoUl {
+	text-decoration: none;
+	font-size: 10px;
+	color:#999999;
+}
+.linkprimeiroUl2 {
+	color: #ffffff;
+	text-decoration: none;
 }
 </style>
 </head>
@@ -58,16 +77,36 @@ li {
 		<header>
 			<nav id="firstNav">
 				<div id="divFirstNav">
-					<ul>
+					<ul id="primeiroUl">
 						<li><a id="li1" href="#">globo.com</a></li>
 						<li><a id="li2" href="#">g1</a></li>
 						<li><a id="li3" href="#">globoesporte</a></li>
 						<li><a id="li4" href="#">gshow</a></li>
 						<li><a id="li5" href="#">vídeos</a></li>
 					</ul>
+					<ul id="segundoUl">
+						<li><a class="linkSegundoUl" href="#">ASSINE JÁ</a></li>
+						<li><a class="linkSegundoUl" href="#">MINHA CONTA</a></li>
+						<li><a class="linkSegundoUl" href="#">E-MAIL</a></li>
+						<li><a class="linkSegundoUl" href="#">ENTRAR</a></li>
+					</ul>
 				</div>
 			</nav>
-			<nav id="secondNav"></nav>
+			<nav id="secondNav">
+				<div id="divSecondNav">
+					<ul id="primeiroUl">
+						<li><a class="linkprimeiroUl2" href="#">MENU</a></li>
+						<li><a class="linkprimeiroUl2" href="#">ge</a></li>
+						<li><a class="linkprimeiroUl2" href="#">Times</a></li>
+					</ul>
+					<ul id="segundoUl">
+						<li><a class="linkSegundoUl" href="#">ASSINE JÁ</a></li>
+						<li><a class="linkSegundoUl" href="#">MINHA CONTA</a></li>
+						<li><a class="linkSegundoUl" href="#">E-MAIL</a></li>
+						<li><a class="linkSegundoUl" href="#">ENTRAR</a></li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 
 		<article>
